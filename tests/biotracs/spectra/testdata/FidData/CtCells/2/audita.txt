@@ -1,0 +1,23 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ /opt/topspin3.2/data/nmr/Workspace1/CHAGAS_METPATH_BA021/BA021-WP1-WP2-WP3-WP4-UTEC07-01/Data/NMR600/chagas_111017/data/nmr/nmr/CT_Benz_24h_1/2/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2017-11-03 09:47:33.265 +0100>,<nmr>,<nmrpc>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2017-11-03 09:42:42.005 +0100,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       4B 5C F4 A6 86 CD 86 6A EA E1 8A DC 7C 45 68 D2
+       data hash MD5: 64K
+       95 D4 18 A9 04 35 60 2C C7 20 2F 4B 91 88 02 97>)
+(   2,<2017-11-03 09:47:34.031 +0100>,<nmr>,<nmrpc>,<audit>,<TOPSPIN 3.2>,
+      <user comment:
+       ICON-NMR User ID: nmr
+       data hash MD5: 64K
+       95 D4 18 A9 04 35 60 2C C7 20 2F 4B 91 88 02 97>)
+##END=
+
+$$ hash MD5
+$$ FB FE 70 A0 CD 91 48 FF 60 10 0E 81 67 C3 73 BF

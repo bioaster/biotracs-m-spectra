@@ -1,0 +1,11 @@
+##TITLE= Parameter file, TOPSPIN		Version 3.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ 2017-11-03 10:59:01.979 +0100  nmr@nmrpc
+$$ /opt/topspin3.2/data/nmr/Workspace1/CHAGAS_METPATH_BA021/BA021-WP1-WP2-WP3-WP4-UTEC07-01/Data/NMR600/chagas_111017/data/nmr/nmr/CT_Benz_24h_1/2/pdata/1/assocs
+$$ process /opt/topspin3.2/prog/mod/dataserver
+##$MULTDISP= </opt/topspin3.2/data/nmr/Workspace1/CHAGAS_METPATH_BA021/BA021-WP1-WP2-WP3-WP4-UTEC07-01/Data/NMR600/chagas_111017/data/nmr/nmr/Inf_Benz_24h_9/1/pdata/1|null>
+##END=

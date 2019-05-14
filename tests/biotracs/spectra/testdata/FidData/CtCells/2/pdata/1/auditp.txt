@@ -1,0 +1,36 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ /opt/topspin3.2/data/nmr/Workspace1/CHAGAS_METPATH_BA021/BA021-WP1-WP2-WP3-WP4-UTEC07-01/Data/NMR600/chagas_111017/data/nmr/nmr/CT_Benz_24h_1/2/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2017-11-03 09:47:33.265 +0100>,<nmr>,<nmrpc>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2017-11-03 09:42:42.005 +0100,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       4B 5C F4 A6 86 CD 86 6A EA E1 8A DC 7C 45 68 D2
+       data hash MD5: 64K
+       95 D4 18 A9 04 35 60 2C C7 20 2F 4B 91 88 02 97>)
+(   2,<2017-11-03 09:47:34.031 +0100>,<nmr>,<nmrpc>,<audit>,<TOPSPIN 3.2>,
+      <user comment:
+       ICON-NMR User ID: nmr
+       data hash MD5: 64K
+       95 D4 18 A9 04 35 60 2C C7 20 2F 4B 91 88 02 97>)
+(   3,<2017-11-03 09:47:34.286 +0100>,<nmr>,<nmrpc>,<proc1d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       ef LB = 0.3 FT_mod = 6 PKNL = 1 SI = 64K 
+       data hash MD5: 64K
+       79 DA 5F 1F 90 1C 76 38 2A 11 F2 64 9D D3 FE 5C>)
+(   4,<2017-11-03 09:47:35.376 +0100>,<nmr>,<nmrpc>,<proc1d>,<TOPSPIN 3.2>,
+      <apk0 
+       data hash MD5: 64K
+       0D 30 D9 3F 5F 34 6B 99 A8 4B 0E 29 36 B6 74 A4>)
+(   5,<2017-11-03 10:02:57.731 +0100>,<nmr>,<nmrpc>,<proc1d>,<TOPSPIN 3.2>,
+      <pk fgphup PHC0 = 0.5499771 PHC1 = 0.5 
+       data hash MD5: 64K
+       AC 4B AE 50 FB 72 E9 95 4A BF F3 68 12 42 CC B7>)
+##END=
+
+$$ hash MD5
+$$ B8 6C 29 CB B5 50 E8 C9 B9 0C 93 E6 A5 19 36 F8

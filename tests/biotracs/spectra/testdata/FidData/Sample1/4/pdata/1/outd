@@ -1,0 +1,16 @@
+##TITLE= Parameter file, TOPSPIN		Version 3.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ 2017-11-03 09:15:31.755 +0100  nmr@nmrpc
+$$ /opt/topspin3.2/data/nmr/Workspace1/CHAGAS_METPATH_BA021/BA021-WP1-WP2-WP3-WP4-UTEC07-01/Data/NMR600/chagas_111017/data/nmr/nmr/CT_Benz_24h_1/4/pdata/1/outd
+$$ process /opt/topspin3.2/prog/mod/xwish3
+##$CURPLOT= <OfficeJetPro8100>
+##$CURPRIN= <$OfficeJetPro8100>
+##$DFORMAT= <normdp>
+##$LAYOUT= <+/1D_H.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+##END=
