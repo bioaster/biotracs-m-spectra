@@ -1,7 +1,7 @@
 classdef BinnerTests < matlab.unittest.TestCase
     
     properties
-        workingDir = fullfile(biotracs.core.env.Env.workingDir(), '/biotracs.spectra.sigproc.BinningTests');
+        workingDir = fullfile(biotracs.core.env.Env.workingDir(), '/biotracs/spectra/sigproc/BinningTests');
     end
 
     methods (Test)

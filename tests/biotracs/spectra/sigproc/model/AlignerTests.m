@@ -1,7 +1,7 @@
 classdef AlignerTests < matlab.unittest.TestCase
     
     properties
-        workingDir = fullfile(biotracs.core.env.Env.workingDir(), '/biotracs.spectra.sigproc.AlignmentTests');
+        workingDir = fullfile(biotracs.core.env.Env.workingDir(), '/biotracs/spectra/sigproc/AlignmentTests');
     end
     
     methods(TestMethodTeardown)

@@ -1,7 +1,7 @@
 classdef ConsensusSignalCreatorTests < matlab.unittest.TestCase
     
     properties
-        workingDir = fullfile(biotracs.core.env.Env.workingDir(), '/biotracs.spectra.sigproc.ConsensusSignalCreatorTests');
+        workingDir = fullfile(biotracs.core.env.Env.workingDir(), '/biotracs/spectra/sigproc/ConsensusSignalCreatorTests');
     end
 
     methods (Test)

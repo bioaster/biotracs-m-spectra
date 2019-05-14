@@ -1,7 +1,7 @@
 classdef ResamplerTests < matlab.unittest.TestCase
     
     properties
-        workingDir = fullfile(biotracs.core.env.Env.workingDir(), '/biotracs.spectra.sigproc.ResamplingTests');
+        workingDir = fullfile(biotracs.core.env.Env.workingDir(), '/biotracs/spectra/sigproc/ResamplingTests');
     end
     
     methods(TestMethodTeardown)

@@ -1,7 +1,7 @@
 classdef FilterTests < matlab.unittest.TestCase
     
     properties
-        workingDir = fullfile(biotracs.core.env.Env.workingDir(), '/biotracs.spectra.sigproc.FilteringTests');
+        workingDir = fullfile(biotracs.core.env.Env.workingDir(), '/biotracs/spectra/sigproc/FilteringTests');
     end
 
     methods (Test)

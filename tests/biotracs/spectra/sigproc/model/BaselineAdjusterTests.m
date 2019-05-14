@@ -1,7 +1,7 @@
 classdef BaselineAdjusterTests < matlab.unittest.TestCase
     
     properties
-        workingDir = fullfile(biotracs.core.env.Env.workingDir(), '/biotracs.spectra.sigproc.BaselineAdjusterTests');
+        workingDir = fullfile(biotracs.core.env.Env.workingDir(), '/biotracs/spectra/sigproc/BaselineAdjusterTests');
     end
 
     methods (Test)

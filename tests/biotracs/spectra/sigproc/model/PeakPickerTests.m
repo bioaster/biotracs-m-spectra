@@ -1,7 +1,7 @@
 classdef PeakPickerTests < matlab.unittest.TestCase
     
     properties
-        workingDir = fullfile(biotracs.core.env.Env.workingDir(), '/biotracs.spectra.sigproc.PeakPickingTests');
+        workingDir = fullfile(biotracs.core.env.Env.workingDir(), '/biotracs/spectra/sigproc/PeakPickingTests');
     end
     
     methods(TestMethodTeardown)
