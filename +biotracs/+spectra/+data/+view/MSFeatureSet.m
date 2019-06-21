@@ -150,10 +150,11 @@ classdef MSFeatureSet < biotracs.data.view.DataSet
                 qcCv = qcStats.selectByRowName('^CV$');
                 %  h{ii} = figure;
                 histogram(qcCv.data, p.Results.NbBins, 'Normalization', 'probability');
-                xlabel( ['CV, Batch ', num2str(ii)'] );
+                xlabel( ['CV, Batch ', num2str(ii)] );
                 ylabel('Probability');
                 title(p.Results.Title);
             end
+            set(h, 'Unit', 'normalized', 'Position', [0.1807 0.2620 0.5667 0.4343]);
         end
         
     end
