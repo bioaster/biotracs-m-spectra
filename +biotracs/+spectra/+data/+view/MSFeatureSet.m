@@ -142,6 +142,12 @@ classdef MSFeatureSet < biotracs.data.view.DataSet
             nbBatches = getLength(iQcFeatureSetContainer);
             %h = cell(1,nbBatches);
             h = figure;
+            if nbBatches <= 4
+                set(h, 'Unit', 'normalized', 'Position', [0.1807 0.2620 0.5667 0.4343]);
+            else
+                set(h, 'Unit', 'normalized', 'Position', [0.0187 0.0806 0.9490 0.8028]);
+            end
+            
             roundNbBatches = round(nbBatches/2);
             for ii=1:nbBatches
                 subplot(roundNbBatches,round(nbBatches/roundNbBatches),ii);
@@ -154,7 +160,6 @@ classdef MSFeatureSet < biotracs.data.view.DataSet
                 ylabel('Probability');
                 title(p.Results.Title);
             end
-            set(h, 'Unit', 'normalized', 'Position', [0.1807 0.2620 0.5667 0.4343]);
         end
         
     end
