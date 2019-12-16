@@ -16,6 +16,8 @@ classdef FeatureSetCreator < biotracs.core.mvc.model.Process
         
         % Constructor
         function this = FeatureSetCreator()
+            %#function biotracs.spectra.sigproc.model.FeatureSetCreatorConfig biotracs.spectra.data.model.SignalSet biotracs.data.model.DataSet
+            
             this@biotracs.core.mvc.model.Process();
             
             % enhance inputs specs

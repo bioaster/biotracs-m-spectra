@@ -15,6 +15,7 @@ classdef MSGroupTableCreator < biotracs.core.mvc.model.Process
         
         % Constructor
         function this = MSGroupTableCreator( )
+            %#function biotracs.spectra.data.model.MSGroupTableCreatorConfig biotracs.spectra.data.model.MSFeatureSet biotracs.spectra.data.model.MSGroupTable
             this@biotracs.core.mvc.model.Process();
             
             this.addInputSpecs({...

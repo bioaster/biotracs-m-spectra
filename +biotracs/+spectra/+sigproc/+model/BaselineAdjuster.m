@@ -25,6 +25,8 @@ classdef BaselineAdjuster < biotracs.core.mvc.model.Process
         
         % Constructor
         function this = BaselineAdjuster()
+            %#function biotracs.spectra.sigproc.model.BaselineAdjusterConfig biotracs.spectra.data.model.SignalSet
+            
             this@biotracs.core.mvc.model.Process();
             
             % define input and output specs

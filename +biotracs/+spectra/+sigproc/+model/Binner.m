@@ -25,6 +25,8 @@ classdef Binner < biotracs.core.mvc.model.Process
         
         % Constructor
         function this = Binner()
+            %#function biotracs.spectra.sigproc.model.BinnerConfig biotracs.core.mvc.model.Resource biotracs.spectra.sigproc.model.BinningResult
+            
             this@biotracs.core.mvc.model.Process();
             
             % define input and output specs
@@ -100,7 +102,7 @@ classdef Binner < biotracs.core.mvc.model.Process
                 [indexes, intensities] = iSignal.getSignalMatrix(); 
             end
             
-			biotracs.core.env.Env.currentLogger( this.logger );
+			%biotracs.core.env.Env.currentLogger( this.logger );
             if strcmp(this.config.getParamValue('Method'), 'gaussian')
                 sigma = this.config.getParamValue('StandardDeviation'); 
                 [discreteSignalData, continuousSignalData] = biotracs.math.bingdata( intensities, indexes, iBinTicks, sigma );

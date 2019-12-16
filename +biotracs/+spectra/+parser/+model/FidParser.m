@@ -20,6 +20,8 @@ classdef FidParser < biotracs.core.parser.model.BaseParser
     methods
         % Constructor
         function this = FidParser()
+            %#function biotracs.spectra.parser.model.FidParserConfig biotracs.data.model.DataTable biotracs.spectra.data.model.NMRSpectrum biotracs.spectra.data.model.NMRSpectrumSet
+            
             this@biotracs.core.parser.model.BaseParser();
             this.addInputSpecs({...
                 struct(...

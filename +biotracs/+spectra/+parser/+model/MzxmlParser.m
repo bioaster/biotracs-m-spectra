@@ -19,6 +19,7 @@ classdef MzxmlParser < biotracs.core.parser.model.BaseParser
     methods
         % Constructor
         function this = MzxmlParser()
+            %#function biotracs.spectra.helper.MzxmlParserConfig biotracs.spectra.data.model.MSSpectrum biotracs.spectra.data.model.MSSpectrumSet
             this@biotracs.core.parser.model.BaseParser();
         end
 

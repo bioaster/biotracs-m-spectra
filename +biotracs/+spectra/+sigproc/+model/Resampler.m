@@ -25,6 +25,8 @@ classdef Resampler < biotracs.core.mvc.model.Process
         
         % Constructor
         function this = Resampler()
+            %#function biotracs.spectra.sigproc.model.ResamplerConfig biotracs.spectra.data.model.Signal biotracs.spectra.data.model.SignalSet biotracs.spectra.sigproc.model.ResamplingResult
+            
             this@biotracs.core.mvc.model.Process();
             
             % define input and output specs

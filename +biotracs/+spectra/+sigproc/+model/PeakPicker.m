@@ -25,6 +25,8 @@ classdef PeakPicker < biotracs.core.mvc.model.Process
         
         % Constructor
         function this = PeakPicker()
+            %#function biotracs.spectra.sigproc.model.PeakPickerConfig biotracs.spectra.data.model.Signal biotracs.spectra.data.model.SignalSet biotracs.spectra.sigproc.model.PeakPickingResult
+            
             this@biotracs.core.mvc.model.Process();
             
             % define input and output specs

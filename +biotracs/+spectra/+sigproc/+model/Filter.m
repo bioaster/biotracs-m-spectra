@@ -25,6 +25,8 @@ classdef Filter < biotracs.core.mvc.model.Process
         
         % Constructor
         function this = Filter()
+            %#function biotracs.spectra.sigproc.model.FilterConfig biotracs.spectra.data.model.SignalSet
+            
             this@biotracs.core.mvc.model.Process();
             
             % define input and output specs
@@ -76,13 +78,13 @@ classdef Filter < biotracs.core.mvc.model.Process
                     indexesLowIntensitySignals = find(ti(:,2) < maxInt * totalIntenistyRatio);
                     indexesToRemove = [indexesLowIntensitySignals, this.config.getParamValue('SignalIndexesToRemove')];
                 end
-
+                
                 idx = true( 1, signalSet.getLength() );
                 idx( indexesToRemove ) = false;
                 filteredSignalSet = feval( tableOutputClass );
                 filteredSignalSet.setElements( signalSet.getAt(idx) );
                 filteredSignalSet.discardProcess();
-
+                
                 if minIntenisty > 0
                     for i=1:getLength(filteredSignalSet)
                         idx = filteredSignalSet.getAt(i).data(:,2) < minIntenisty;

@@ -25,6 +25,8 @@ classdef Aligner < biotracs.core.mvc.model.Process
         
         % Constructor
         function this = Aligner()
+            %#function biotracs.spectra.sigproc.model.AlignerConfig biotracs.spectra.data.model.SignalSet biotracs.spectra.data.model.Signal biotracs.spectra.sigproc.model.AlignmentResult
+            
             this@biotracs.core.mvc.model.Process();
             
             % define input and output specs

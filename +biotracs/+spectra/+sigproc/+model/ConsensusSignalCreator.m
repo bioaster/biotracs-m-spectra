@@ -25,6 +25,8 @@ classdef ConsensusSignalCreator < biotracs.core.mvc.model.Process
         
         % Constructor
         function this = ConsensusSignalCreator()
+            %#function biotracs.spectra.sigproc.model.ConsensusSignalCreatorConfig biotracs.core.mvc.model.ResourceSet biotracs.spectra.sigproc.model.ConsensusResult
+            
             this@biotracs.core.mvc.model.Process();
             
             % define input and output specs

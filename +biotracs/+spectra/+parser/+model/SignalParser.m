@@ -22,6 +22,8 @@ classdef SignalParser < biotracs.parser.model.TableParser
     methods
         % Constructor
         function this = SignalParser( )
+            %#function biotracs.spectra.parser.model.SignalParserConfig biotracs.spectra.data.model.SignalSet
+            
             this@biotracs.parser.model.TableParser();
             this.updateOutputSpecs({...
                 struct(...

@@ -20,6 +20,8 @@ classdef BucketTableParser < biotracs.parser.model.TableParser
     methods
         % Constructor
         function this = BucketTableParser()
+            %#function biotracs.spectra.parser.model.BucketTableParserConfig
+            
             this@biotracs.parser.model.TableParser();
         end
         
